@@ -42,3 +42,4 @@ bazel-out
 bazel-testlogs
 bazel-test
 _output
+.idea/workspace.xml

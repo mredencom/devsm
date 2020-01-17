@@ -50,7 +50,7 @@ func ping(ctx *bm.Context) {
 // example for http request handler.
 func howToStart(c *bm.Context) {
 	k := &model.Kratos{
-		Hello: "Golang 大法好 !!!!",
+		Hello: "Golang 跑的真快！",
 	}
 	c.JSON(k, nil)
 }
