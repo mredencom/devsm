@@ -6,7 +6,7 @@
 
 biligo/
 .vscode/
-
+vendor/
 *.swp
 
 # temp ignore
