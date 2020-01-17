@@ -6,8 +6,8 @@ import (
 	"github.com/bilibili/kratos/pkg/conf/paladin"
 	"github.com/bilibili/kratos/pkg/log"
 	bm "github.com/bilibili/kratos/pkg/net/http/blademaster"
-	pb "kratos-demo/api"
-	"kratos-demo/internal/model"
+	pb "devsm/api"
+	"devsm/internal/model"
 )
 
 var svc pb.DemoServer
@@ -34,7 +34,7 @@ func New(s pb.DemoServer) (engine *bm.Engine, err error) {
 
 func initRouter(e *bm.Engine) {
 	e.Ping(ping)
-	g := e.Group("/kratos-demo")
+	g := e.Group("/devsm")
 	{
 		g.GET("/start", howToStart)
 	}

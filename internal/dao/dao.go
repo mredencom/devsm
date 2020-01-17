@@ -10,7 +10,7 @@ import (
 	"github.com/bilibili/kratos/pkg/database/sql"
 	"github.com/bilibili/kratos/pkg/sync/pipeline/fanout"
 	xtime "github.com/bilibili/kratos/pkg/time"
-	"kratos-demo/internal/model"
+	"devsm/internal/model"
 
 	"github.com/google/wire"
 )

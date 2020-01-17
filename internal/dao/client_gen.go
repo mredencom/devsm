@@ -6,7 +6,7 @@ import (
 	"github.com/bilibili/kratos/pkg/net/rpc/warden"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
-	"kratos-demo/api"
+	"devsm/api"
 )
 
 type Daos struct {

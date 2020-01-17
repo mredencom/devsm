@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/bilibili/kratos/pkg/conf/paladin"
-	pb "kratos-demo/api"
-	"kratos-demo/internal/dao"
+	pb "devsm/api"
+	"devsm/internal/dao"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/google/wire"

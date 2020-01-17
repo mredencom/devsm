@@ -6,7 +6,7 @@ import (
 	"github.com/bilibili/kratos/pkg/cache/memcache"
 	"github.com/bilibili/kratos/pkg/conf/paladin"
 	"github.com/bilibili/kratos/pkg/log"
-	"kratos-demo/internal/model"
+	"devsm/internal/model"
 )
 
 //go:generate kratos tool genmc

@@ -4,10 +4,10 @@
 package di
 
 import (
-	"kratos-demo/internal/dao"
-	"kratos-demo/internal/service"
-	"kratos-demo/internal/server/grpc"
-	"kratos-demo/internal/server/http"
+	"devsm/internal/dao"
+	"devsm/internal/service"
+	"devsm/internal/server/grpc"
+	"devsm/internal/server/http"
 
 	"github.com/google/wire"
 )

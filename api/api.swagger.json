@@ -78,9 +78,9 @@
                 ]
             }
         },
-        "/kratos-demo/say_hello": {
+        "/devsm/say_hello": {
             "get": {
-                "summary": "/kratos-demo/say_hello",
+                "summary": "/devsm/say_hello",
                 "responses": {
                     "200": {
                         "description": "A successful response.",

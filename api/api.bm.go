@@ -27,7 +27,7 @@ var _ binding.StructValidator
 
 var PathDemoPing = "/demo.service.v1.Demo/Ping"
 var PathDemoSayHello = "/demo.service.v1.Demo/SayHello"
-var PathDemoSayHelloURL = "/kratos-demo/say_hello"
+var PathDemoSayHelloURL = "/devsm/say_hello"
 
 // DemoBMServer is the server API for Demo service.
 type DemoBMServer interface {
@@ -72,5 +72,5 @@ func RegisterDemoBMServer(e *bm.Engine, server DemoBMServer) {
 	DemoSvc = server
 	e.GET("/demo.service.v1.Demo/Ping", demoPing)
 	e.GET("/demo.service.v1.Demo/SayHello", demoSayHello)
-	e.GET("/kratos-demo/say_hello", demoSayHelloURL)
+	e.GET("/devsm/say_hello", demoSayHelloURL)
 }

@@ -6,10 +6,10 @@
 package di
 
 import (
-	"kratos-demo/internal/dao"
-	"kratos-demo/internal/server/grpc"
-	"kratos-demo/internal/server/http"
-	"kratos-demo/internal/service"
+	"devsm/internal/dao"
+	"devsm/internal/server/grpc"
+	"devsm/internal/server/http"
+	"devsm/internal/service"
 )
 
 // Injectors from wire.go:

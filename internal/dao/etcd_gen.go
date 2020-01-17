@@ -8,7 +8,7 @@ import (
 	"github.com/bilibili/kratos/pkg/net/rpc/warden"
 	"github.com/google/wire"
 	"google.golang.org/grpc"
-	"kratos-demo/api"
+	"devsm/api"
 
 	"os"
 )
